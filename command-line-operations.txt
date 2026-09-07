@@ -1,15 +1,13 @@
 
 
 
+cat
+tail
+head 
+sudo 
 
+programs and softwares can be installed in this directory
+/bin or /usr/bin   or /home/student/bin
 
-
-
-
-
-
-
-
-
-
-tree  -> displays a tree view of the file system
+to find where is the program is 
+which diff gives usr/bin/diff  and aslo whereis
