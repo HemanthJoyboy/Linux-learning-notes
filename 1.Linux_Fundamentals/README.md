@@ -64,6 +64,7 @@ Linux is organized in abstraction layers, each one talking only to the layer dir
 ├── /root            — root user's home
 ├── /dev             — devices (everything is a file!)
 └── /proc            — live kernel/process info
+|__ /var/lib         - persistent application data/state
 ```
 
 > 🐧 In Linux, **everything is a file** — even devices & processes.
