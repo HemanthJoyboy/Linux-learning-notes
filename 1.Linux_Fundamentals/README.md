@@ -110,6 +110,7 @@ $ whoami         # which user am I?
 
 /var/lib/ is where Linux programs store their persistent application state/data — the stuff a program needs to remember between reboots (unlike /var/run or /tmp, which are temporary/volatile). Think of it as "the databases and working data for installed services."
 
+```
 Common subdirectories you'll see        Path	What's stored
 /var/lib/docker/	                     Docker images, containers, volumes (as we discussed)
 /var/lib/apt/	                      APT package manager's local database (lists of available/installed packages)
@@ -121,3 +122,4 @@ Common subdirectories you'll see        Path	What's stored
 /var/lib/kubelet/	                 Kubernetes node data, if running k8s
 /var/lib/mongodb/	                 MongoDB data files
 /var/lib/redis/	                   Redis persistence files (RDB/AOF)
+```
